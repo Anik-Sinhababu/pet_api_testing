@@ -1,0 +1,366 @@
+15:19:02.843 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:19:02.859 [main] INFO  apiTest.DDTest - Starting testPostUser with username: alice.davis
+15:25:13.136 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:13.139 [main] INFO  apiTest.DDTest - Starting testPostUser with username: alice.davis
+15:25:16.517 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"1"}
+15:25:16.763 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:16.764 [main] INFO  apiTest.DDTest - Starting testPostUser with username: alice.brown
+15:25:18.890 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"2"}
+15:25:19.038 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:19.038 [main] INFO  apiTest.DDTest - Starting testPostUser with username: bob.smith
+15:25:21.127 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"3"}
+15:25:21.219 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:21.219 [main] INFO  apiTest.DDTest - Starting testPostUser with username: ivy.wilson
+15:25:23.317 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"4"}
+15:25:23.382 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:23.382 [main] INFO  apiTest.DDTest - Starting testPostUser with username: bob.wilson
+15:25:25.497 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"5"}
+15:25:25.585 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:25.587 [main] INFO  apiTest.DDTest - Starting testPostUser with username: nina.miller
+15:25:27.691 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"6"}
+15:25:27.759 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:27.760 [main] INFO  apiTest.DDTest - Starting testPostUser with username: nina.wilson
+15:25:29.855 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"7"}
+15:25:29.913 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:29.913 [main] INFO  apiTest.DDTest - Starting testPostUser with username: frank.anderson
+15:25:32.021 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"8"}
+15:25:32.082 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:32.082 [main] INFO  apiTest.DDTest - Starting testPostUser with username: jane.brown
+15:25:34.889 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"9"}
+15:25:34.954 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:34.954 [main] INFO  apiTest.DDTest - Starting testPostUser with username: jane.brown
+15:25:37.079 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"10"}
+15:25:37.154 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:37.154 [main] INFO  apiTest.DDTest - Starting testPostUser with username: hank.anderson
+15:25:39.260 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"11"}
+15:25:39.310 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:39.310 [main] INFO  apiTest.DDTest - Starting testPostUser with username: frank.moore
+15:25:41.378 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"12"}
+15:25:41.440 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:41.441 [main] INFO  apiTest.DDTest - Starting testPostUser with username: charlie.brown
+15:25:43.530 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"13"}
+15:25:43.591 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:43.591 [main] INFO  apiTest.DDTest - Starting testPostUser with username: bob.anderson
+15:25:45.707 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"14"}
+15:25:45.742 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:45.742 [main] INFO  apiTest.DDTest - Starting testPostUser with username: jane.brown
+15:25:47.857 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"15"}
+15:25:47.921 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:47.921 [main] INFO  apiTest.DDTest - Starting testPostUser with username: mia.moore
+15:25:49.996 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"16"}
+15:25:50.046 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:50.046 [main] INFO  apiTest.DDTest - Starting testPostUser with username: nina.brown
+15:25:52.149 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"17"}
+15:25:52.198 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:52.199 [main] INFO  apiTest.DDTest - Starting testPostUser with username: jack.anderson
+15:25:54.270 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"18"}
+15:25:54.339 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:54.339 [main] INFO  apiTest.DDTest - Starting testPostUser with username: kate.taylor
+15:25:56.447 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"19"}
+15:25:56.510 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:56.510 [main] INFO  apiTest.DDTest - Starting testPostUser with username: hank.davis
+15:25:58.588 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"20"}
+15:25:58.636 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:25:58.636 [main] INFO  apiTest.DDTest - Starting testPostUser with username: charlie.wilson
+15:26:00.732 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"21"}
+15:26:00.789 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:00.789 [main] INFO  apiTest.DDTest - Starting testPostUser with username: charlie.doe
+15:26:02.887 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"22"}
+15:26:02.918 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:02.918 [main] INFO  apiTest.DDTest - Starting testPostUser with username: mia.wilson
+15:26:05.021 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"23"}
+15:26:05.073 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:05.073 [main] INFO  apiTest.DDTest - Starting testPostUser with username: kate.johnson
+15:26:07.152 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"24"}
+15:26:07.200 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:07.200 [main] INFO  apiTest.DDTest - Starting testPostUser with username: grace.doe
+15:26:09.280 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"25"}
+15:26:09.327 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:09.327 [main] INFO  apiTest.DDTest - Starting testPostUser with username: jane.miller
+15:26:11.425 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"26"}
+15:26:11.471 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:11.471 [main] INFO  apiTest.DDTest - Starting testPostUser with username: grace.brown
+15:26:13.563 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"27"}
+15:26:13.610 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:13.610 [main] INFO  apiTest.DDTest - Starting testPostUser with username: frank.johnson
+15:26:15.688 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"28"}
+15:26:15.735 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:15.735 [main] INFO  apiTest.DDTest - Starting testPostUser with username: bob.taylor
+15:26:17.831 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"29"}
+15:26:17.884 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:17.884 [main] INFO  apiTest.DDTest - Starting testPostUser with username: jack.johnson
+15:26:20.053 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"30"}
+15:26:20.100 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:20.100 [main] INFO  apiTest.DDTest - Starting testPostUser with username: alice.taylor
+15:26:22.201 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"31"}
+15:26:22.233 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:22.233 [main] INFO  apiTest.DDTest - Starting testPostUser with username: ivy.miller
+15:26:24.343 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"32"}
+15:26:24.385 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:24.385 [main] INFO  apiTest.DDTest - Starting testPostUser with username: leo.anderson
+15:26:26.480 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"33"}
+15:26:26.531 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:26.531 [main] INFO  apiTest.DDTest - Starting testPostUser with username: jane.davis
+15:26:28.639 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"34"}
+15:26:28.686 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:28.686 [main] INFO  apiTest.DDTest - Starting testPostUser with username: leo.moore
+15:26:30.779 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"35"}
+15:26:30.826 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:30.826 [main] INFO  apiTest.DDTest - Starting testPostUser with username: grace.johnson
+15:26:32.920 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"36"}
+15:26:32.967 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:32.967 [main] INFO  apiTest.DDTest - Starting testPostUser with username: frank.taylor
+15:26:35.054 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"37"}
+15:26:35.101 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:35.101 [main] INFO  apiTest.DDTest - Starting testPostUser with username: ivy.smith
+15:26:37.176 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"38"}
+15:26:37.223 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:37.223 [main] INFO  apiTest.DDTest - Starting testPostUser with username: jane.davis
+15:26:40.981 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"39"}
+15:26:41.012 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:41.012 [main] INFO  apiTest.DDTest - Starting testPostUser with username: nina.taylor
+15:26:43.108 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"40"}
+15:26:43.659 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:43.659 [main] INFO  apiTest.DDTest - Starting testReadUser with username: alice.davis
+15:26:44.730 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:26:44.788 [main] ERROR apiTest.DDTest - User read failed. Username: alice.davis. Status code: 404
+15:26:45.282 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:45.282 [main] INFO  apiTest.DDTest - Starting testReadUser with username: alice.brown
+15:26:46.367 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:26:46.432 [main] ERROR apiTest.DDTest - User read failed. Username: alice.brown. Status code: 404
+15:26:46.432 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:46.432 [main] INFO  apiTest.DDTest - Starting testReadUser with username: bob.smith
+15:26:47.528 [main] INFO  apiTest.DDTest - Response: {"id":3,"username":"bob.smith","firstName":"Bob","lastName":"Smith","email":"bob.smith@example.com","password":"Smith3540186118","phone":"3540186118","userStatus":0}
+15:26:47.591 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:47.591 [main] INFO  apiTest.DDTest - Starting testReadUser with username: ivy.wilson
+15:26:48.681 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:26:48.717 [main] ERROR apiTest.DDTest - User read failed. Username: ivy.wilson. Status code: 404
+15:26:48.733 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:48.733 [main] INFO  apiTest.DDTest - Starting testReadUser with username: bob.wilson
+15:26:49.827 [main] INFO  apiTest.DDTest - Response: {"id":5,"username":"bob.wilson","firstName":"Bob","lastName":"Wilson","email":"bob.wilson@example.com","password":"Wilson1111478633","phone":"1111478633","userStatus":0}
+15:26:49.875 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:49.875 [main] INFO  apiTest.DDTest - Starting testReadUser with username: nina.miller
+15:26:50.946 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:26:50.994 [main] ERROR apiTest.DDTest - User read failed. Username: nina.miller. Status code: 404
+15:26:50.994 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:50.994 [main] INFO  apiTest.DDTest - Starting testReadUser with username: nina.wilson
+15:26:52.082 [main] INFO  apiTest.DDTest - Response: {"id":7,"username":"nina.wilson","firstName":"Nina","lastName":"Wilson","email":"nina.wilson@example.com","password":"Wilson3859783296","phone":"3859783296","userStatus":0}
+15:26:52.127 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:52.127 [main] INFO  apiTest.DDTest - Starting testReadUser with username: frank.anderson
+15:26:53.218 [main] INFO  apiTest.DDTest - Response: {"id":8,"username":"frank.anderson","firstName":"Frank","lastName":"Anderson","email":"frank.anderson@example.com","password":"Anderson1734188574","phone":"1734188574","userStatus":0}
+15:26:53.276 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:53.276 [main] INFO  apiTest.DDTest - Starting testReadUser with username: jane.brown
+15:26:54.350 [main] INFO  apiTest.DDTest - Response: {"id":10,"username":"jane.brown","firstName":"Jane","lastName":"Brown","email":"jane.brown@example.com","password":"Brown7453082604","phone":"7453082604","userStatus":0}
+15:26:54.418 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:54.418 [main] INFO  apiTest.DDTest - Starting testReadUser with username: jane.brown
+15:26:55.486 [main] INFO  apiTest.DDTest - Response: {"id":10,"username":"jane.brown","firstName":"Jane","lastName":"Brown","email":"jane.brown@example.com","password":"Brown7453082604","phone":"7453082604","userStatus":0}
+15:26:55.533 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:55.533 [main] INFO  apiTest.DDTest - Starting testReadUser with username: hank.anderson
+15:26:56.615 [main] INFO  apiTest.DDTest - Response: {"id":11,"username":"hank.anderson","firstName":"Hank","lastName":"Anderson","email":"hank.anderson@example.com","password":"Anderson8983648226","phone":"8983648226","userStatus":0}
+15:26:56.646 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:56.646 [main] INFO  apiTest.DDTest - Starting testReadUser with username: frank.moore
+15:26:57.758 [main] INFO  apiTest.DDTest - Response: {"id":12,"username":"frank.moore","firstName":"Frank","lastName":"Moore","email":"frank.moore@example.com","password":"Moore4176216143","phone":"4176216143","userStatus":0}
+15:26:57.815 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:57.815 [main] INFO  apiTest.DDTest - Starting testReadUser with username: charlie.brown
+15:26:58.920 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:26:58.985 [main] ERROR apiTest.DDTest - User read failed. Username: charlie.brown. Status code: 404
+15:26:58.991 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:26:58.991 [main] INFO  apiTest.DDTest - Starting testReadUser with username: bob.anderson
+15:27:00.096 [main] INFO  apiTest.DDTest - Response: {"id":14,"username":"bob.anderson","firstName":"Bob","lastName":"Anderson","email":"bob.anderson@example.com","password":"Anderson3861296103","phone":"3861296103","userStatus":0}
+15:27:00.143 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:00.143 [main] INFO  apiTest.DDTest - Starting testReadUser with username: jane.brown
+15:27:01.214 [main] INFO  apiTest.DDTest - Response: {"id":15,"username":"jane.brown","firstName":"Jane","lastName":"Brown","email":"jane.brown@example.com","password":"Brown6280941848","phone":"6280941848","userStatus":0}
+15:27:01.300 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:01.300 [main] INFO  apiTest.DDTest - Starting testReadUser with username: mia.moore
+15:27:02.383 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:02.430 [main] ERROR apiTest.DDTest - User read failed. Username: mia.moore. Status code: 404
+15:27:02.430 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:02.430 [main] INFO  apiTest.DDTest - Starting testReadUser with username: nina.brown
+15:27:03.531 [main] INFO  apiTest.DDTest - Response: {"id":17,"username":"nina.brown","firstName":"Nina","lastName":"Brown","email":"nina.brown@example.com","password":"Brown2664435629","phone":"2664435629","userStatus":0}
+15:27:03.578 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:03.578 [main] INFO  apiTest.DDTest - Starting testReadUser with username: jack.anderson
+15:27:04.669 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:04.716 [main] ERROR apiTest.DDTest - User read failed. Username: jack.anderson. Status code: 404
+15:27:04.722 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:04.722 [main] INFO  apiTest.DDTest - Starting testReadUser with username: kate.taylor
+15:27:05.807 [main] INFO  apiTest.DDTest - Response: {"id":19,"username":"kate.taylor","firstName":"Kate","lastName":"Taylor","email":"kate.taylor@example.com","password":"Taylor8831565209","phone":"8831565209","userStatus":0}
+15:27:05.874 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:05.874 [main] INFO  apiTest.DDTest - Starting testReadUser with username: hank.davis
+15:27:06.954 [main] INFO  apiTest.DDTest - Response: {"id":20,"username":"hank.davis","firstName":"Hank","lastName":"Davis","email":"hank.davis@example.com","password":"Davis8511062522","phone":"8511062522","userStatus":0}
+15:27:07.001 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:07.001 [main] INFO  apiTest.DDTest - Starting testReadUser with username: charlie.wilson
+15:27:08.087 [main] INFO  apiTest.DDTest - Response: {"id":21,"username":"charlie.wilson","firstName":"Charlie","lastName":"Wilson","email":"charlie.wilson@example.com","password":"Wilson2239740964","phone":"2239740964","userStatus":0}
+15:27:08.135 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:08.135 [main] INFO  apiTest.DDTest - Starting testReadUser with username: charlie.doe
+15:27:09.232 [main] INFO  apiTest.DDTest - Response: {"id":22,"username":"charlie.doe","firstName":"Charlie","lastName":"Doe","email":"charlie.doe@example.com","password":"Doe7935167948","phone":"7935167948","userStatus":0}
+15:27:09.279 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:09.279 [main] INFO  apiTest.DDTest - Starting testReadUser with username: mia.wilson
+15:27:10.367 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:10.398 [main] ERROR apiTest.DDTest - User read failed. Username: mia.wilson. Status code: 404
+15:27:10.419 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:10.419 [main] INFO  apiTest.DDTest - Starting testReadUser with username: kate.johnson
+15:27:11.522 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:11.583 [main] ERROR apiTest.DDTest - User read failed. Username: kate.johnson. Status code: 404
+15:27:11.583 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:11.583 [main] INFO  apiTest.DDTest - Starting testReadUser with username: grace.doe
+15:27:12.694 [main] INFO  apiTest.DDTest - Response: {"id":25,"username":"grace.doe","firstName":"Grace","lastName":"Doe","email":"grace.doe@example.com","password":"Doe4890543845","phone":"4890543845","userStatus":0}
+15:27:12.725 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:12.740 [main] INFO  apiTest.DDTest - Starting testReadUser with username: jane.miller
+15:27:13.813 [main] INFO  apiTest.DDTest - Response: {"id":26,"username":"jane.miller","firstName":"Jane","lastName":"Miller","email":"jane.miller@example.com","password":"Miller7070830294","phone":"7070830294","userStatus":0}
+15:27:13.863 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:13.863 [main] INFO  apiTest.DDTest - Starting testReadUser with username: grace.brown
+15:27:14.946 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:14.995 [main] ERROR apiTest.DDTest - User read failed. Username: grace.brown. Status code: 404
+15:27:14.995 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:14.995 [main] INFO  apiTest.DDTest - Starting testReadUser with username: frank.johnson
+15:27:16.094 [main] INFO  apiTest.DDTest - Response: {"id":28,"username":"frank.johnson","firstName":"Frank","lastName":"Johnson","email":"frank.johnson@example.com","password":"Johnson9309561735","phone":"9309561735","userStatus":0}
+15:27:16.149 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:16.149 [main] INFO  apiTest.DDTest - Starting testReadUser with username: bob.taylor
+15:27:17.219 [main] INFO  apiTest.DDTest - Response: {"id":29,"username":"bob.taylor","firstName":"Bob","lastName":"Taylor","email":"bob.taylor@example.com","password":"Taylor7237237955","phone":"7237237955","userStatus":0}
+15:27:17.285 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:17.285 [main] INFO  apiTest.DDTest - Starting testReadUser with username: jack.johnson
+15:27:18.356 [main] INFO  apiTest.DDTest - Response: {"id":30,"username":"jack.johnson","firstName":"Jack","lastName":"Johnson","email":"jack.johnson@example.com","password":"Johnson2779720070","phone":"2779720070","userStatus":0}
+15:27:18.403 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:18.403 [main] INFO  apiTest.DDTest - Starting testReadUser with username: alice.taylor
+15:27:19.490 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:19.537 [main] ERROR apiTest.DDTest - User read failed. Username: alice.taylor. Status code: 404
+15:27:19.552 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:19.552 [main] INFO  apiTest.DDTest - Starting testReadUser with username: ivy.miller
+15:27:20.698 [main] INFO  apiTest.DDTest - Response: {"id":32,"username":"ivy.miller","firstName":"Ivy","lastName":"Miller","email":"ivy.miller@example.com","password":"Miller7238264707","phone":"7238264707","userStatus":0}
+15:27:20.746 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:20.746 [main] INFO  apiTest.DDTest - Starting testReadUser with username: leo.anderson
+15:27:21.840 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:21.887 [main] ERROR apiTest.DDTest - User read failed. Username: leo.anderson. Status code: 404
+15:27:21.887 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:21.887 [main] INFO  apiTest.DDTest - Starting testReadUser with username: jane.davis
+15:27:22.965 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:23.016 [main] ERROR apiTest.DDTest - User read failed. Username: jane.davis. Status code: 404
+15:27:23.028 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:23.028 [main] INFO  apiTest.DDTest - Starting testReadUser with username: leo.moore
+15:27:24.109 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:24.141 [main] ERROR apiTest.DDTest - User read failed. Username: leo.moore. Status code: 404
+15:27:24.156 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:24.156 [main] INFO  apiTest.DDTest - Starting testReadUser with username: grace.johnson
+15:27:25.238 [main] INFO  apiTest.DDTest - Response: {"id":36,"username":"grace.johnson","firstName":"Grace","lastName":"Johnson","email":"grace.johnson@example.com","password":"Johnson6311367111","phone":"6311367111","userStatus":0}
+15:27:25.285 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:25.285 [main] INFO  apiTest.DDTest - Starting testReadUser with username: frank.taylor
+15:27:26.364 [main] INFO  apiTest.DDTest - Response: {"id":37,"username":"frank.taylor","firstName":"Frank","lastName":"Taylor","email":"frank.taylor@example.com","password":"Taylor7884542152","phone":"7884542152","userStatus":0}
+15:27:26.425 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:26.425 [main] INFO  apiTest.DDTest - Starting testReadUser with username: ivy.smith
+15:27:27.507 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"User not found"}
+15:27:27.539 [main] ERROR apiTest.DDTest - User read failed. Username: ivy.smith. Status code: 404
+15:27:27.555 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:27.555 [main] INFO  apiTest.DDTest - Starting testReadUser with username: jane.davis
+15:27:28.655 [main] INFO  apiTest.DDTest - Response: {"id":34,"username":"jane.davis","firstName":"Jane","lastName":"Davis","email":"jane.davis@example.com","password":"Davis2854311888","phone":"2854311888","userStatus":0}
+15:27:28.717 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:28.717 [main] INFO  apiTest.DDTest - Starting testReadUser with username: nina.taylor
+15:27:29.822 [main] INFO  apiTest.DDTest - Response: {"id":40,"username":"nina.taylor","firstName":"Nina","lastName":"Taylor","email":"nina.taylor@example.com","password":"Taylor2140298639","phone":"2140298639","userStatus":0}
+15:27:30.227 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:30.227 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: alice.davis
+15:27:31.289 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"alice.davis"}
+15:27:31.336 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:31.336 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: alice.brown
+15:27:32.407 [main] INFO  apiTest.DDTest - Response: 
+15:27:32.454 [main] ERROR apiTest.DDTest - User deletion failed. Username: alice.brown. Status code: 404
+15:27:32.454 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:32.454 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: bob.smith
+15:27:33.529 [main] INFO  apiTest.DDTest - Response: 
+15:27:33.577 [main] ERROR apiTest.DDTest - User deletion failed. Username: bob.smith. Status code: 404
+15:27:33.578 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:33.578 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: ivy.wilson
+15:27:34.652 [main] INFO  apiTest.DDTest - Response: 
+15:27:34.711 [main] ERROR apiTest.DDTest - User deletion failed. Username: ivy.wilson. Status code: 404
+15:27:34.711 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:34.711 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: bob.wilson
+15:27:35.778 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"bob.wilson"}
+15:27:35.824 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:35.824 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: nina.miller
+15:27:36.897 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"nina.miller"}
+15:27:36.943 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:36.943 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: nina.wilson
+15:27:38.050 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"nina.wilson"}
+15:27:38.108 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:38.108 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: frank.anderson
+15:27:39.191 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"frank.anderson"}
+15:27:39.239 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:39.239 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: jane.brown
+15:27:40.312 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"jane.brown"}
+15:27:40.359 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:40.359 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: jane.brown
+15:27:41.444 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"jane.brown"}
+15:27:41.475 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:41.475 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: hank.anderson
+15:27:42.542 [main] INFO  apiTest.DDTest - Response: 
+15:27:42.589 [main] ERROR apiTest.DDTest - User deletion failed. Username: hank.anderson. Status code: 404
+15:27:42.589 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:42.589 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: frank.moore
+15:27:43.687 [main] INFO  apiTest.DDTest - Response: 
+15:27:43.725 [main] ERROR apiTest.DDTest - User deletion failed. Username: frank.moore. Status code: 404
+15:27:43.725 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:43.740 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: charlie.brown
+15:27:44.813 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"charlie.brown"}
+15:27:44.856 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:44.856 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: bob.anderson
+15:27:45.955 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"bob.anderson"}
+15:27:46.003 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:46.003 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: jane.brown
+15:27:47.106 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"jane.brown"}
+15:27:47.138 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:47.138 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: mia.moore
+15:27:48.240 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"mia.moore"}
+15:27:48.287 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:48.287 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: nina.brown
+15:27:49.356 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"nina.brown"}
+15:27:49.404 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:49.404 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: jack.anderson
+15:27:50.488 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"jack.anderson"}
+15:27:50.525 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:50.525 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: kate.taylor
+15:27:52.610 [main] INFO  apiTest.DDTest - Response: 
+15:27:52.660 [main] ERROR apiTest.DDTest - User deletion failed. Username: kate.taylor. Status code: 404
+15:27:52.660 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:52.660 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: hank.davis
+15:27:53.735 [main] INFO  apiTest.DDTest - Response: 
+15:27:53.782 [main] ERROR apiTest.DDTest - User deletion failed. Username: hank.davis. Status code: 404
+15:27:53.782 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:53.782 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: charlie.wilson
+15:27:54.882 [main] INFO  apiTest.DDTest - Response: 
+15:27:54.921 [main] ERROR apiTest.DDTest - User deletion failed. Username: charlie.wilson. Status code: 404
+15:27:54.921 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:54.921 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: charlie.doe
+15:27:56.023 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"charlie.doe"}
+15:27:56.082 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:56.082 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: mia.wilson
+15:27:57.160 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"mia.wilson"}
+15:27:57.209 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:57.209 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: kate.johnson
+15:27:58.272 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"kate.johnson"}
+15:27:58.321 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:58.321 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: grace.doe
+15:27:59.422 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"grace.doe"}
+15:27:59.470 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:27:59.470 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: jane.miller
+15:28:00.558 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"jane.miller"}
+15:28:00.606 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:28:00.606 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: grace.brown
+15:28:01.674 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"grace.brown"}
+15:28:01.711 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:28:01.711 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: frank.johnson
+15:28:02.810 [main] INFO  apiTest.DDTest - Response: 
+15:28:02.856 [main] ERROR apiTest.DDTest - User deletion failed. Username: frank.johnson. Status code: 404
+15:28:02.856 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:28:02.856 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: bob.taylor
+15:28:03.938 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"bob.taylor"}
+15:28:03.986 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:28:03.986 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: jack.johnson
+15:28:05.086 [main] INFO  apiTest.DDTest - Response: 
+15:28:05.122 [main] ERROR apiTest.DDTest - User deletion failed. Username: jack.johnson. Status code: 404
+15:28:05.122 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:28:05.122 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: alice.taylor
+15:28:06.206 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"alice.taylor"}
+15:28:06.257 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:28:06.257 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: ivy.miller
+15:28:07.328 [main] INFO  apiTest.DDTest - Response: 
+15:28:07.375 [main] ERROR apiTest.DDTest - User deletion failed. Username: ivy.miller. Status code: 404
+15:28:07.375 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+15:28:07.375 [main] INFO  apiTest.DDTest - Starting testDeleteUser with username: leo.anderson

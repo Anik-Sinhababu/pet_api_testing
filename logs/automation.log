@@ -1,0 +1,44 @@
+12:35:21.044 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:21.047 [main] INFO  apiTest.DDTest - Starting testPostPet with petID: 8
+12:35:22.617 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"additionalMetadata: pet image 8\nFile uploaded to ./image8.jpg, 21780 bytes"}
+12:35:22.626 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:22.636 [main] INFO  apiTest.DDTest - Starting testPostPet with petID: 9
+12:35:23.951 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"additionalMetadata: pet image 9\nFile uploaded to ./image9.jpg, 7957 bytes"}
+12:35:23.962 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:23.962 [main] INFO  apiTest.DDTest - Starting testPostPet with petID: 10
+12:35:25.529 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"additionalMetadata: pet image 10\nFile uploaded to ./image10.jpg, 24837 bytes"}
+12:35:25.693 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:25.694 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 1
+12:35:26.964 [main] INFO  apiTest.DDTest - Response: {"id":1,"category":{"id":0,"name":"Maria"},"name":"doggie","photoUrls":["string"],"tags":[{"id":20,"name":"string"},{"id":30,"name":"string"}],"status":"available"}
+12:35:26.964 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:26.964 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 2
+12:35:28.278 [main] INFO  apiTest.DDTest - Response: {"id":2,"name":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","photoUrls":[],"tags":[],"status":"available"}
+12:35:28.279 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:28.279 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 3
+12:35:29.558 [main] INFO  apiTest.DDTest - Response: {"id":3,"category":{"id":3,"name":"cat"},"name":"purplefieldstester2_1744263945888","photoUrls":["http://purplefieldstestimage2_1744263945929","http://purplefieldstestimage2"],"tags":[{"id":3,"name":"naughty"},{"id":4,"name":"nice"}],"status":"available"}
+12:35:29.559 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:29.559 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 4
+12:35:30.828 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"Pet not found"}
+12:35:30.828 [main] ERROR apiTest.DDTest - Could not retrieve data from API. Pet ID: 4. Status code: 404
+12:35:30.830 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:30.830 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 5
+12:35:32.144 [main] INFO  apiTest.DDTest - Response: {"id":5,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"string"}
+12:35:32.144 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:32.144 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 6
+12:35:33.381 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"Pet not found"}
+12:35:33.382 [main] ERROR apiTest.DDTest - Could not retrieve data from API. Pet ID: 6. Status code: 404
+12:35:33.383 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:33.383 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 7
+12:35:34.690 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"Pet not found"}
+12:35:34.690 [main] ERROR apiTest.DDTest - Could not retrieve data from API. Pet ID: 7. Status code: 404
+12:35:34.691 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:34.691 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 8
+12:35:35.982 [main] INFO  apiTest.DDTest - Response: {"id":8,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+12:35:35.983 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:35.983 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 9
+12:35:37.275 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"Pet not found"}
+12:35:37.275 [main] ERROR apiTest.DDTest - Could not retrieve data from API. Pet ID: 9. Status code: 404
+12:35:37.276 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+12:35:37.276 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 10
+12:35:38.559 [main] INFO  apiTest.DDTest - Response: {"id":10,"category":{"id":0,"name":"Mertens"},"name":"Icardi","photoUrls":["Oliveira"],"tags":[{"id":0,"name":"Zaniolo"}],"status":"available"}
+12:35:38.560 [main] INFO  apiTest.DDTest - Flushing reports

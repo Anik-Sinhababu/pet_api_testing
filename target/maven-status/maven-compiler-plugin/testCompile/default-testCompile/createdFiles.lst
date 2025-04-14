@@ -1,0 +1,10 @@
+apiTest\UserTest.class
+apiEndpoint\UserEndpoint.class
+apiTest\DDTest.class
+apiUtilities\Reporter.class
+apiEndpoint\PetEndpoints.class
+apiUtilities\DataProviders.class
+apiEndpoint\Routes.class
+apiUtilities\XLReader.class
+apiPayload\Pet.class
+apiPayload\User.class
