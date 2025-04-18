@@ -1,7 +1,5 @@
 package apiUtilities;
-
 import java.io.IOException;
-import java.lang.annotation.Repeatable;
 
 import org.testng.annotations.DataProvider;
 
@@ -105,6 +103,26 @@ public class DataProviders {
 
         return apidata;
 
+    }
+
+    @DataProvider(name = "OrderProvider")
+    public String[][] getOrders() throws IOException
+    {
+        XLReader xl = new XLReader(System.getProperty("user.dir") + "/userdata.xlsx");
+        int rownum = xl.getRowCount("Store");
+        int colcount = xl.getCellCount("Store", 1);
+
+        String apidata[][] = new String[rownum][colcount];
+        for(int i=1; i<=rownum; i++)
+        {
+            for(int j=0; j<colcount; j++)
+            {
+                apidata[i-1][j] = xl.getCellData("Store", i, j);
+            }
+        }
+
+        return apidata;
+        
     }
 
 }

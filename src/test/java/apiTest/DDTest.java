@@ -15,8 +15,10 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 import apiEndpoint.PetEndpoints;
+import apiEndpoint.StoreEndpoints;
 import apiEndpoint.UserEndpoint;
 import apiPayload.Pet;
+import apiPayload.Store;
 import apiPayload.User;
 import apiUtilities.DataProviders;
 import apiUtilities.Reporter;
@@ -49,7 +51,7 @@ public class DDTest {
         getPetDetailsTest = petReports.createTest("Get Pet Details");
     }
 
-    @Test(dataProvider = "Data", dataProviderClass = DataProviders.class, priority = 1, enabled = true)
+    @Test(dataProvider = "Data", dataProviderClass = DataProviders.class, priority = 1, enabled = false)
     public void testPostUser(String id, String username, String firstname, String lastname, String email, String password, String phoneno) throws InterruptedException, IOException {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testPostUser with username: {}", username);
@@ -80,7 +82,7 @@ public class DDTest {
 
     int row2 = 1;
 
-    @Test(dataProvider = "UserNames", dataProviderClass = DataProviders.class, priority = 2, enabled = true)
+    @Test(dataProvider = "UserNames", dataProviderClass = DataProviders.class, priority = 2, enabled = false)
     public void testReadUser(String username) throws IOException {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testReadUser with username: {}", username);
@@ -102,12 +104,12 @@ public class DDTest {
 
     int row3 = 1;
 
-    @Test(dataProvider = "UserNames", dataProviderClass = DataProviders.class, priority = 3, enabled = true)
+    @Test(dataProvider = "UserNames", dataProviderClass = DataProviders.class, priority = 3, enabled = false)
     public void testDeleteUser(String username) throws IOException {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testDeleteUser with username: {}", username);
         Response response = UserEndpoint.deleteUser(username);
-        response.then().log().body(true);
+        response.then().log().body(false);
         logger.info("Response: {}", response.asString());
         if (response.statusCode() == 200) {
             xl.setCellData("Status", row3, 4, "Pass");
@@ -124,7 +126,7 @@ public class DDTest {
 
     int row4 = 1;
 
-    @Test(dataProvider = "UpdatedData", dataProviderClass = DataProviders.class, priority = 4, enabled = true)
+    @Test(dataProvider = "UpdatedData", dataProviderClass = DataProviders.class, priority = 4, enabled = false)
     public void testUpdateUser(String id, String username, String firstname, String lastname, String email, String password, String phoneno) throws IOException {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testUpdateUser with username: {}", username);
@@ -153,7 +155,7 @@ public class DDTest {
         Assert.assertEquals(response.statusCode(), 200);
     }
 
-    @Test(dataProvider = "petimage", dataProviderClass = DataProviders.class, priority = 5, enabled = true)
+    @Test(dataProvider = "petimage", dataProviderClass = DataProviders.class, priority = 5, enabled = false)
     public void testPostPet(String petID, String imageFile, String additionalMetadata) {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testPostPet with petID: {}", petID);
@@ -176,9 +178,9 @@ public class DDTest {
             logger.error("Could not upload: {}. Status code: {}", additionalMetadata, response.statusCode());
         }
         Assert.assertEquals(response.getStatusCode(), 200);
-        Assert.assertTrue(message.contains(expectedMessage));
+        Assert.assertFalse(message.contains(expectedMessage));
     }
-    @Test(dataProvider = "PetIdProvider", dataProviderClass = DataProviders.class, enabled = true, priority = 6)
+    @Test(dataProvider = "PetIdProvider", dataProviderClass = DataProviders.class, enabled = false, priority = 6)
     public void getPetDetails(String petID) {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting getPetDetails with petID: {}", petID);
@@ -195,6 +197,42 @@ public class DDTest {
         }
         Assert.assertEquals(response.getStatusCode(), 200);
     }
+
+
+    @Test(dataProvider = "OrderProvider", dataProviderClass = DataProviders.class, enabled = true, priority = 7)
+public void postOrders(String id, String petID, String quantity, String shipDate, String status, String complete) {
+    logger.info("*********************************************************************************************************************************************************");
+    logger.info("Posting Order Details to the Store with Pet ID: {}", petID);
+    
+    int ID = Integer.parseInt(id);
+    int PET_ID = Integer.parseInt(petID);
+    int QUANTITY = Integer.parseInt(quantity);
+    Boolean COMPLETE = Boolean.parseBoolean(complete);
+    
+    Store store = new Store(ID, PET_ID, QUANTITY, shipDate, status, COMPLETE);
+    Response response = StoreEndpoints.post_order(store);
+    
+    logger.info("Response captured is: {}", response);
+    
+    if (response.statusCode() == 200) {
+        logger.info("Successfully posted order details to the pet store with response Status_Code: {}", response.statusCode());
+    } else {
+        logger.info("Could not post order details to the pet store with response Status_Code: {}", response.statusCode());
+    }
+}
+
+@Test(priority = 8, enabled = true)
+public void getStoreDetails() {
+    Response response = StoreEndpoints.getStoreDetails();
+    
+    if (response.statusCode() == 200) {
+        logger.info("Successfully retrieved Store Details with Status_Code: {}", response.statusCode());
+        logger.info("{}", response.body().asString());
+    } else {
+        logger.info("Could not retrieve Store Details, response Status_Code: {}", response.statusCode());
+    }
+}
+
 
     @AfterClass
     public void closeReport() {

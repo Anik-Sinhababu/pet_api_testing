@@ -14,7 +14,8 @@ public class Routes {
     public static String logout_url = base_url + "/user/logout";
 
     //Store Model
-
+    public static String get_Store_details = base_url + "/store/inventory";
+    public static String post_order = base_url + "/store/order";
 
     //Pet Model
 
