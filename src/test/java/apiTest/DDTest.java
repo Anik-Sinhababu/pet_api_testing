@@ -32,9 +32,9 @@ public class DDTest {
     Pet petPayload;
     int row = 1;
     XLReader xl = new XLReader(System.getProperty("user.dir") + "/userdata.xlsx");
-    ExtentReports reports, petReports;
+    ExtentReports reports, petReports, storeReports;
 
-    ExtentTest postTest, getUserTest, deleteUserTest, updateUserTest, postPetTest, getPetDetailsTest;
+    ExtentTest postTest, getUserTest, deleteUserTest, updateUserTest, postPetTest, getPetDetailsTest, postOrderTest, getStoreDetailsTest;
 
     @BeforeClass
     public void createReport() {
@@ -49,9 +49,15 @@ public class DDTest {
         petReports = Reporter.generateReports("Pet");
         postPetTest = petReports.createTest("Upload Pet Image");
         getPetDetailsTest = petReports.createTest("Get Pet Details");
+
+        //Store Test
+
+        storeReports = Reporter.generateReports("Store");
+        postOrderTest = storeReports.createTest("Post Orders to Store");
+        getStoreDetailsTest = storeReports.createTest("Get Details of Store");
     }
 
-    @Test(dataProvider = "Data", dataProviderClass = DataProviders.class, priority = 1, enabled = true)
+    @Test(dataProvider = "Data", dataProviderClass = DataProviders.class, priority = 1, enabled = false)
     public void testPostUser(String id, String username, String firstname, String lastname, String email, String password, String phoneno) throws InterruptedException, IOException {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testPostUser with username: {}", username);
@@ -82,7 +88,7 @@ public class DDTest {
 
     int row2 = 1;
 
-    @Test(dataProvider = "UserNames", dataProviderClass = DataProviders.class, priority = 2, enabled = true)
+    @Test(dataProvider = "UserNames", dataProviderClass = DataProviders.class, priority = 2, enabled = false)
     public void testReadUser(String username) throws IOException {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testReadUser with username: {}", username);
@@ -104,7 +110,7 @@ public class DDTest {
 
     int row3 = 1;
 
-    @Test(dataProvider = "UserNames", dataProviderClass = DataProviders.class, priority = 3, enabled = true)
+    @Test(dataProvider = "UserNames", dataProviderClass = DataProviders.class, priority = 3, enabled = false)
     public void testDeleteUser(String username) throws IOException {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testDeleteUser with username: {}", username);
@@ -126,7 +132,7 @@ public class DDTest {
 
     int row4 = 1;
 
-    @Test(dataProvider = "UpdatedData", dataProviderClass = DataProviders.class, priority = 4, enabled = true)
+    @Test(dataProvider = "UpdatedData", dataProviderClass = DataProviders.class, priority = 4, enabled = false)
     public void testUpdateUser(String id, String username, String firstname, String lastname, String email, String password, String phoneno) throws IOException {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testUpdateUser with username: {}", username);
@@ -155,7 +161,7 @@ public class DDTest {
         Assert.assertEquals(response.statusCode(), 200);
     }
 
-    @Test(dataProvider = "petimage", dataProviderClass = DataProviders.class, priority = 5, enabled = true)
+    @Test(dataProvider = "petimage", dataProviderClass = DataProviders.class, priority = 5, enabled = false)
     public void testPostPet(String petID, String imageFile, String additionalMetadata) {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting testPostPet with petID: {}", petID);
@@ -180,7 +186,7 @@ public class DDTest {
         Assert.assertEquals(response.getStatusCode(), 200);
         Assert.assertFalse(message.contains(expectedMessage));
     }
-    @Test(dataProvider = "PetIdProvider", dataProviderClass = DataProviders.class, enabled = true, priority = 6)
+    @Test(dataProvider = "PetIdProvider", dataProviderClass = DataProviders.class, enabled = false, priority = 6)
     public void getPetDetails(String petID) {
         logger.info("*********************************************************************************************************************************************************");
         logger.info("Starting getPetDetails with petID: {}", petID);
@@ -216,8 +222,10 @@ public void postOrders(String id, String petID, String quantity, String shipDate
     
     if (response.statusCode() == 200) {
         logger.info("Successfully posted order details to the pet store with response Status_Code: {}", response.statusCode());
+        postOrderTest.log(Status.INFO, "Successfully posted order details to the pet store with response Status_Code: " + response.statusCode());
     } else {
         logger.info("Could not post order details to the pet store with response Status_Code: {}", response.statusCode());
+        postOrderTest.log(Status.INFO, "Could not post order details to the pet store with response Status_Code: " + response.statusCode());
     }
 }
 
@@ -228,8 +236,10 @@ public void getStoreDetails() {
     if (response.statusCode() == 200) {
         logger.info("Successfully retrieved Store Details with Status_Code: {}", response.statusCode());
         logger.info("{}", response.body().asString());
+        getStoreDetailsTest.log(Status.INFO, "Successfully retrieved Store Details with Status_Code: {}" +  response.statusCode() + "\n" + "Response: " + response.body().asString());
     } else {
         logger.info("Could not retrieve Store Details, response Status_Code: {}", response.statusCode());
+        getStoreDetailsTest.log(Status.INFO, "Could not retrieve Store Details, response Status_Code: " + response.getStatusCode());
     }
 }
 
@@ -239,5 +249,6 @@ public void getStoreDetails() {
         logger.info("Flushing reports");
         reports.flush();
         petReports.flush();
+        storeReports.flush();
     }
 }

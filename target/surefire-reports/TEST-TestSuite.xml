@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="36.011" tests="23" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="36.627" tests="23" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\10827551\AppData\Local\Temp\surefire7838542824605591182\surefirebooter-20250418101558467_3.jar C:\Users\10827551\AppData\Local\Temp\surefire7838542824605591182 2025-04-18T10-15-58_297-jvmRun1 surefire-20250418101558467_1tmp surefire_0-20250418101558467_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\10827551\AppData\Local\Temp\surefire9599859013863323782\surefirebooter-20250421111344006_3.jar C:\Users\10827551\AppData\Local\Temp\surefire9599859013863323782 2025-04-21T11-13-43_796-jvmRun1 surefire-20250421111344006_1tmp surefire_0-20250421111344006_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\10827551\OneDrive - LTIMindtree\Desktop\pet_api_testing\pet_api_testing\target\test-classes;C:\Users\10827551\OneDrive - LTIMindtree\Desktop\pet_api_testing\pet_api_testing\target\classes;C:\Users\10827551\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\10827551\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\10827551\.m2\repository\com\github\scribejava\scribejava-apis\8.3.3\scribejava-apis-8.3.3.jar;C:\Users\10827551\.m2\repository\com\github\scribejava\scribejava-core\8.3.3\scribejava-core-8.3.3.jar;C:\Users\10827551\.m2\repository\com\github\scribejava\scribejava-java8\8.3.3\scribejava-java8-8.3.3.jar;C:\Users\10827551\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\10827551\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\10827551\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\10827551\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\10827551\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\10827551\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\10827551\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\10827551\.m2\repository\org\json\json\20250107\json-20250107.jar;C:\Users\10827551\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\10827551\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\10827551\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\10827551\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\10827551\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\10827551\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\10827551\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\10827551\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\10827551\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\10827551\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\10827551\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\10827551\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\10827551\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\10827551\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\10827551\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\10827551\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\10827551\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\10827551\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\10827551\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\10827551\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\10827551\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\10827551\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\10827551\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\10827551\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\10827551\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\10827551\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\10827551\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\10827551\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\10827551\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\10827551\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\10827551\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\10827551\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\10827551\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\10827551\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\10827551\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\10827551\AppData\Local\Temp\surefire7838542824605591182\surefirebooter-20250418101558467_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\10827551\AppData\Local\Temp\surefire9599859013863323782\surefirebooter-20250421111344006_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+7-LTS"/>
@@ -60,166 +60,166 @@
     <property name="java.class.version" value="65.0"/>
   </properties>
   <testcase name="postOrders[1, 2861, 1, 2025-05-14T09:56:59.041877, approved, FALSE](1)" classname="apiTest.DDTest" time="2.733">
-    <system-out><![CDATA[10:16:04.124 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:04.124 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2861
-10:16:06.841 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@1a139347
-10:16:06.841 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+    <system-out><![CDATA[11:13:49.227 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:49.235 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2861
+11:13:51.943 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@45f1413c
+11:13:51.943 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="postOrders[2, 9981, 8, 2025-04-23T09:56:59.041897, delivered, FALSE](2)" classname="apiTest.DDTest" time="1.37">
-    <system-out><![CDATA[10:16:06.841 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:06.841 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9981
-10:16:08.220 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@526893f
-10:16:08.220 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[2, 9981, 8, 2025-04-23T09:56:59.041897, delivered, FALSE](2)" classname="apiTest.DDTest" time="1.396">
+    <system-out><![CDATA[11:13:51.952 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:51.952 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9981
+11:13:53.344 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@2db461b5
+11:13:53.344 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[3, 8028, 3, 2025-04-18T09:56:59.041906, approved, TRUE](3)" classname="apiTest.DDTest" time="1.298">
-    <system-out><![CDATA[10:16:08.226 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:08.226 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8028
-10:16:09.524 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@2b974137
-10:16:09.524 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[3, 8028, 3, 2025-04-18T09:56:59.041906, approved, TRUE](3)" classname="apiTest.DDTest" time="1.509">
+    <system-out><![CDATA[11:13:53.353 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:53.353 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8028
+11:13:54.853 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@d0a2c82
+11:13:54.859 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[4, 1036, 7, 2025-04-20T09:56:59.041914, placed, TRUE](4)" classname="apiTest.DDTest" time="1.279">
-    <system-out><![CDATA[10:16:09.524 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:09.524 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1036
-10:16:10.790 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@3d59933
-10:16:10.790 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[4, 1036, 7, 2025-04-20T09:56:59.041914, placed, TRUE](4)" classname="apiTest.DDTest" time="1.46">
+    <system-out><![CDATA[11:13:54.859 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:54.862 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1036
+11:13:56.311 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@47ffdbba
+11:13:56.318 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[5, 9322, 8, 2025-05-03T09:56:59.041921, placed, TRUE](5)" classname="apiTest.DDTest" time="1.433">
-    <system-out><![CDATA[10:16:10.790 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:10.790 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9322
-10:16:12.221 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@19d3f6ad
-10:16:12.221 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[5, 9322, 8, 2025-05-03T09:56:59.041921, placed, TRUE](5)" classname="apiTest.DDTest" time="1.322">
+    <system-out><![CDATA[11:13:56.319 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:56.319 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9322
+11:13:57.644 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@d6d683e
+11:13:57.644 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[6, 5843, 4, 2025-05-16T09:56:59.041928, delivered, FALSE](6)" classname="apiTest.DDTest" time="1.428">
-    <system-out><![CDATA[10:16:12.221 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:12.221 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5843
-10:16:13.664 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@5b88af70
-10:16:13.664 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[6, 5843, 4, 2025-05-16T09:56:59.041928, delivered, FALSE](6)" classname="apiTest.DDTest" time="1.231">
+    <system-out><![CDATA[11:13:57.644 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:57.644 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5843
+11:13:58.875 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@7eefaca0
+11:13:58.875 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[7, 3552, 6, 2025-05-12T09:56:59.041936, placed, TRUE](7)" classname="apiTest.DDTest" time="1.232">
-    <system-out><![CDATA[10:16:13.664 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:13.664 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3552
-10:16:14.898 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@6f65a203
-10:16:14.898 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[7, 3552, 6, 2025-05-12T09:56:59.041936, placed, TRUE](7)" classname="apiTest.DDTest" time="1.334">
+    <system-out><![CDATA[11:13:58.875 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:58.875 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3552
+11:14:00.209 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@76e9eed8
+11:14:00.209 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[8, 8245, 3, 2025-05-13T09:56:59.041950, approved, TRUE](8)" classname="apiTest.DDTest" time="1.425">
-    <system-out><![CDATA[10:16:14.899 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:14.899 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8245
-10:16:16.325 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@624d778e
-10:16:16.325 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[8, 8245, 3, 2025-05-13T09:56:59.041950, approved, TRUE](8)" classname="apiTest.DDTest" time="1.064">
+    <system-out><![CDATA[11:14:00.209 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:00.209 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8245
+11:14:01.273 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@452ec287
+11:14:01.273 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[9, 3767, 2, 2025-04-18T09:56:59.041957, delivered, FALSE](9)" classname="apiTest.DDTest" time="1.127">
-    <system-out><![CDATA[10:16:16.325 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:16.325 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3767
-10:16:17.452 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@35cbeb54
-10:16:17.452 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[9, 3767, 2, 2025-04-18T09:56:59.041957, delivered, FALSE](9)" classname="apiTest.DDTest" time="1.087">
+    <system-out><![CDATA[11:14:01.273 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:01.273 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3767
+11:14:02.355 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@32d1d6c5
+11:14:02.355 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[10, 6107, 4, 2025-04-18T09:56:59.041964, approved, FALSE](10)" classname="apiTest.DDTest" time="1.224">
-    <system-out><![CDATA[10:16:17.452 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:17.452 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 6107
-10:16:18.676 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@b144175
-10:16:18.676 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[10, 6107, 4, 2025-04-18T09:56:59.041964, approved, FALSE](10)" classname="apiTest.DDTest" time="1.141">
+    <system-out><![CDATA[11:14:02.355 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:02.355 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 6107
+11:14:03.501 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@484b5a21
+11:14:03.501 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[11, 8052, 4, 2025-04-22T09:56:59.041971, placed, TRUE](11)" classname="apiTest.DDTest" time="1.147">
-    <system-out><![CDATA[10:16:18.676 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:18.676 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8052
-10:16:19.823 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@1ba7db2a
-10:16:19.823 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[11, 8052, 4, 2025-04-22T09:56:59.041971, placed, TRUE](11)" classname="apiTest.DDTest" time="1.107">
+    <system-out><![CDATA[11:14:03.501 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:03.501 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8052
+11:14:04.608 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@2e4b5da1
+11:14:04.608 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[12, 5761, 2, 2025-04-24T09:56:59.041978, approved, TRUE](12)" classname="apiTest.DDTest" time="1.113">
-    <system-out><![CDATA[10:16:19.823 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:19.823 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5761
-10:16:20.926 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@5b895e76
-10:16:20.926 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[12, 5761, 2, 2025-04-24T09:56:59.041978, approved, TRUE](12)" classname="apiTest.DDTest" time="1.142">
+    <system-out><![CDATA[11:14:04.608 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:04.608 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5761
+11:14:05.750 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@7e94de5f
+11:14:05.750 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[13, 8973, 3, 2025-05-06T09:56:59.041985, approved, FALSE](13)" classname="apiTest.DDTest" time="1.378">
-    <system-out><![CDATA[10:16:20.936 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:20.936 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8973
-10:16:22.295 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@5d8fd077
-10:16:22.295 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[13, 8973, 3, 2025-05-06T09:56:59.041985, approved, FALSE](13)" classname="apiTest.DDTest" time="1.233">
+    <system-out><![CDATA[11:14:05.750 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:05.750 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8973
+11:14:06.975 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@217b0952
+11:14:06.975 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[14, 4924, 3, 2025-05-16T09:56:59.041992, placed, FALSE](14)" classname="apiTest.DDTest" time="1.176">
-    <system-out><![CDATA[10:16:22.295 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:22.295 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4924
-10:16:23.491 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@626df173
-10:16:23.491 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[14, 4924, 3, 2025-05-16T09:56:59.041992, placed, FALSE](14)" classname="apiTest.DDTest" time="1.517">
+    <system-out><![CDATA[11:14:06.983 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:06.983 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4924
+11:14:08.500 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@c1f0c7b
+11:14:08.500 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[15, 1125, 2, 2025-04-22T09:56:59.041999, placed, FALSE](15)" classname="apiTest.DDTest" time="1.113">
-    <system-out><![CDATA[10:16:23.491 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:23.491 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1125
-10:16:24.589 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@6b899971
-10:16:24.589 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[15, 1125, 2, 2025-04-22T09:56:59.041999, placed, FALSE](15)" classname="apiTest.DDTest" time="1.411">
+    <system-out><![CDATA[11:14:08.500 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:08.500 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1125
+11:14:09.916 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@6cb662e8
+11:14:09.916 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[16, 2933, 9, 2025-05-12T09:56:59.042006, delivered, TRUE](16)" classname="apiTest.DDTest" time="1.034">
-    <system-out><![CDATA[10:16:24.604 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:24.604 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2933
-10:16:25.638 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@254513e8
-10:16:25.638 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[16, 2933, 9, 2025-05-12T09:56:59.042006, delivered, TRUE](16)" classname="apiTest.DDTest" time="1.247">
+    <system-out><![CDATA[11:14:09.919 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:09.919 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2933
+11:14:11.157 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@28db2afb
+11:14:11.157 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[17, 9745, 10, 2025-05-01T09:56:59.042012, delivered, TRUE](17)" classname="apiTest.DDTest" time="1.535">
-    <system-out><![CDATA[10:16:25.638 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:25.638 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9745
-10:16:27.173 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@625db0e0
-10:16:27.173 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[17, 9745, 10, 2025-05-01T09:56:59.042012, delivered, TRUE](17)" classname="apiTest.DDTest" time="1.141">
+    <system-out><![CDATA[11:14:11.166 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:11.166 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9745
+11:14:12.301 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@554d040d
+11:14:12.301 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[18, 3860, 1, 2025-04-25T09:56:59.042019, placed, FALSE](18)" classname="apiTest.DDTest" time="1.215">
-    <system-out><![CDATA[10:16:27.173 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:27.173 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3860
-10:16:28.398 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@1cee3e05
-10:16:28.398 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[18, 3860, 1, 2025-04-25T09:56:59.042019, placed, FALSE](18)" classname="apiTest.DDTest" time="1.265">
+    <system-out><![CDATA[11:14:12.301 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:12.301 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3860
+11:14:13.566 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@42b500aa
+11:14:13.566 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[19, 4425, 10, 2025-05-10T09:56:59.042026, delivered, FALSE](19)" classname="apiTest.DDTest" time="1.241">
-    <system-out><![CDATA[10:16:28.398 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:28.398 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4425
-10:16:29.639 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@62c47480
-10:16:29.639 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[19, 4425, 10, 2025-05-10T09:56:59.042026, delivered, FALSE](19)" classname="apiTest.DDTest" time="1.377">
+    <system-out><![CDATA[11:14:13.566 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:13.572 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4425
+11:14:14.950 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@3ee68377
+11:14:14.950 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[20, 2957, 7, 2025-04-26T09:56:59.042033, approved, TRUE](20)" classname="apiTest.DDTest" time="1.059">
-    <system-out><![CDATA[10:16:29.639 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:29.639 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2957
-10:16:30.698 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@470f0637
-10:16:30.698 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[20, 2957, 7, 2025-04-26T09:56:59.042033, approved, TRUE](20)" classname="apiTest.DDTest" time="1.396">
+    <system-out><![CDATA[11:14:14.950 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:14.950 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2957
+11:14:16.350 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@146db8a6
+11:14:16.350 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[21, 1234, 5, 2024-08-01T10:00:00, placed, TRUE](21)" classname="apiTest.DDTest" time="1.058">
-    <system-out><![CDATA[10:16:30.698 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:30.698 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1234
-10:16:31.756 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@538f45f1
-10:16:31.756 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[21, 1234, 5, 2024-08-01T10:00:00, placed, TRUE](21)" classname="apiTest.DDTest" time="1.37">
+    <system-out><![CDATA[11:14:16.350 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:16.350 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1234
+11:14:17.716 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@186d6033
+11:14:17.716 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="postOrders[22, 5678, 3, 2024-08-02T11:00:00, approved, FALSE](22)" classname="apiTest.DDTest" time="1.266">
-    <system-out><![CDATA[10:16:31.756 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:31.756 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5678
-10:16:33.007 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@696105c4
-10:16:33.007 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+  <testcase name="postOrders[22, 5678, 3, 2024-08-02T11:00:00, approved, FALSE](22)" classname="apiTest.DDTest" time="1.539">
+    <system-out><![CDATA[11:14:17.716 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:17.716 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5678
+11:14:19.259 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@54f9326c
+11:14:19.259 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
 ]]></system-out>
   </testcase>
-  <testcase name="getStoreDetails" classname="apiTest.DDTest" time="1.445">
-    <system-out><![CDATA[10:16:34.447 [main] INFO  apiTest.DDTest - Successfully retrieved Store Details with Status_Code: 200
-10:16:34.462 [main] INFO  apiTest.DDTest - {"sold":13,"string":676,"pending":2,"available":251}
+  <testcase name="getStoreDetails" classname="apiTest.DDTest" time="1.441">
+    <system-out><![CDATA[11:14:20.681 [main] INFO  apiTest.DDTest - Successfully retrieved Store Details with Status_Code: 200
+11:14:20.704 [main] INFO  apiTest.DDTest - {"sold":9,"The Best Dog of World":1,"string":642,"pending":5,"available":235,"invalid":4}
 ]]></system-out>
   </testcase>
 </testsuite>

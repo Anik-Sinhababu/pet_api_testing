@@ -1,243 +1,140 @@
-12:35:21.044 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:21.047 [main] INFO  apiTest.DDTest - Starting testPostPet with petID: 8
-12:35:22.617 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"additionalMetadata: pet image 8\nFile uploaded to ./image8.jpg, 21780 bytes"}
-12:35:22.626 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:22.636 [main] INFO  apiTest.DDTest - Starting testPostPet with petID: 9
-12:35:23.951 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"additionalMetadata: pet image 9\nFile uploaded to ./image9.jpg, 7957 bytes"}
-12:35:23.962 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:23.962 [main] INFO  apiTest.DDTest - Starting testPostPet with petID: 10
-12:35:25.529 [main] INFO  apiTest.DDTest - Response: {"code":200,"type":"unknown","message":"additionalMetadata: pet image 10\nFile uploaded to ./image10.jpg, 24837 bytes"}
-12:35:25.693 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:25.694 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 1
-12:35:26.964 [main] INFO  apiTest.DDTest - Response: {"id":1,"category":{"id":0,"name":"Maria"},"name":"doggie","photoUrls":["string"],"tags":[{"id":20,"name":"string"},{"id":30,"name":"string"}],"status":"available"}
-12:35:26.964 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:26.964 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 2
-12:35:28.278 [main] INFO  apiTest.DDTest - Response: {"id":2,"name":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","photoUrls":[],"tags":[],"status":"available"}
-12:35:28.279 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:28.279 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 3
-12:35:29.558 [main] INFO  apiTest.DDTest - Response: {"id":3,"category":{"id":3,"name":"cat"},"name":"purplefieldstester2_1744263945888","photoUrls":["http://purplefieldstestimage2_1744263945929","http://purplefieldstestimage2"],"tags":[{"id":3,"name":"naughty"},{"id":4,"name":"nice"}],"status":"available"}
-12:35:29.559 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:29.559 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 4
-12:35:30.828 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"Pet not found"}
-12:35:30.828 [main] ERROR apiTest.DDTest - Could not retrieve data from API. Pet ID: 4. Status code: 404
-12:35:30.830 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:30.830 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 5
-12:35:32.144 [main] INFO  apiTest.DDTest - Response: {"id":5,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"string"}
-12:35:32.144 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:32.144 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 6
-12:35:33.381 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"Pet not found"}
-12:35:33.382 [main] ERROR apiTest.DDTest - Could not retrieve data from API. Pet ID: 6. Status code: 404
-12:35:33.383 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:33.383 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 7
-12:35:34.690 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"Pet not found"}
-12:35:34.690 [main] ERROR apiTest.DDTest - Could not retrieve data from API. Pet ID: 7. Status code: 404
-12:35:34.691 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:34.691 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 8
-12:35:35.982 [main] INFO  apiTest.DDTest - Response: {"id":8,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
-12:35:35.983 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:35.983 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 9
-12:35:37.275 [main] INFO  apiTest.DDTest - Response: {"code":1,"type":"error","message":"Pet not found"}
-12:35:37.275 [main] ERROR apiTest.DDTest - Could not retrieve data from API. Pet ID: 9. Status code: 404
-12:35:37.276 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-12:35:37.276 [main] INFO  apiTest.DDTest - Starting getPetDetails with petID: 10
-12:35:38.559 [main] INFO  apiTest.DDTest - Response: {"id":10,"category":{"id":0,"name":"Mertens"},"name":"Icardi","photoUrls":["Oliveira"],"tags":[{"id":0,"name":"Zaniolo"}],"status":"available"}
-12:35:38.560 [main] INFO  apiTest.DDTest - Flushing reports
-09:40:33.490 [main] INFO  apiTest.DDTest - Flushing reports
-10:07:04.586 [main] INFO  apiTest.DDTest - Flushing reports
-10:10:11.880 [main] INFO  apiTest.DDTest - Flushing reports
-10:34:49.809 [main] INFO  apiTest.DDTest - Flushing reports
-11:21:10.154 [main] INFO  apiTest.DDTest - Flushing reports
-11:21:54.158 [main] INFO  apiTest.DDTest - Flushing reports
-11:22:44.515 [main] INFO  apiTest.DDTest - Flushing reports
-11:26:10.874 [main] INFO  apiTest.DDTest - Flushing reports
-11:26:26.418 [main] INFO  apiTest.DDTest - Flushing reports
-11:47:36.539 [main] INFO  apiTest.DDTest - Flushing reports
-11:47:56.913 [main] INFO  apiTest.DDTest - Flushing reports
-11:48:11.831 [main] INFO  apiTest.DDTest - Flushing reports
-11:48:23.032 [main] INFO  apiTest.DDTest - Flushing reports
-11:48:56.754 [main] INFO  apiTest.DDTest - Flushing reports
-15:08:40.149 [main] INFO  apiTest.DDTest - Successfully retrived Store Details with Status_Code: 
-15:08:40.149 [main] INFO  apiTest.DDTest - io.restassured.internal.RestAssuredResponseImpl@e700eba
-15:08:40.149 [main] INFO  apiTest.DDTest - Flushing reports
-15:12:30.747 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:30.751 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2861
-15:12:38.115 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@45f1413c
-15:12:38.489 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:38.492 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:38.492 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9981
-15:12:39.551 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@aa633e6
-15:12:39.561 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:39.562 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:39.562 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8028
-15:12:40.622 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@36120a8b
-15:12:40.628 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:40.629 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:40.629 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1036
-15:12:41.674 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@33e4068
-15:12:41.684 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:41.684 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:41.685 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9322
-15:12:42.745 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@1a7a21d0
-15:12:42.751 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:42.752 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:42.753 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5843
-15:12:43.781 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@7bd694a5
-15:12:43.794 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:43.794 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:43.794 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3552
-15:12:44.819 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@10f10230
-15:12:44.834 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:44.835 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:44.835 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8245
-15:12:45.923 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@14b96c1e
-15:12:45.932 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:45.933 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:45.933 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3767
-15:12:46.993 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@3be369fc
-15:12:47.001 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:47.002 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:47.004 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 6107
-15:12:48.055 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@51da7b08
-15:12:48.064 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:48.064 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:48.065 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8052
-15:12:49.106 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@f9cd1e6
-15:12:49.115 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:49.115 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:49.116 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5761
-15:12:50.181 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@40a84ea8
-15:12:50.188 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:50.189 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:50.189 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8973
-15:12:51.265 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@18e76101
-15:12:51.272 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:51.273 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:51.273 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4924
-15:12:52.335 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@38347345
-15:12:52.344 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:52.345 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:52.345 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1125
-15:12:53.411 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@630c3af3
-15:12:53.418 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:53.418 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:53.418 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2933
-15:12:54.473 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@63243c8f
-15:12:54.482 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:54.482 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:54.483 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9745
-15:12:55.560 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@6054ac20
-15:12:55.567 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:55.568 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:55.568 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3860
-15:12:56.654 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@418bdde9
-15:12:56.662 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:56.663 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:56.663 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4425
-15:12:57.767 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@15a2fddd
-15:12:57.773 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:57.774 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:57.774 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2957
-15:12:58.870 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@70f76276
-15:12:58.880 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:58.880 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:58.880 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1234
-15:12:59.940 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@57bfca3a
-15:12:59.946 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:12:59.947 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-15:12:59.947 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5678
-15:13:00.987 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@58041b11
-15:13:00.997 [main] INFO  apiTest.DDTest - Could not post order details to the pet store with response Status_Code: 200
-15:13:02.049 [main] INFO  apiTest.DDTest - Successfully retrieved Store Details with Status_Code: 200
-15:13:02.050 [main] INFO  apiTest.DDTest - {"availablehi":1,"sold":12,"inactive":1,"string":256,"pending":17,"available":262,"Pending":1,"peric":4,"Lhы":1,"Not available":1}
-15:13:02.051 [main] INFO  apiTest.DDTest - Flushing reports
-10:16:04.124 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:04.124 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2861
-10:16:06.841 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@1a139347
-10:16:06.841 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:06.841 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:06.841 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9981
-10:16:08.220 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@526893f
-10:16:08.220 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:08.226 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:08.226 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8028
-10:16:09.524 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@2b974137
-10:16:09.524 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:09.524 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:09.524 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1036
-10:16:10.790 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@3d59933
-10:16:10.790 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:10.790 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:10.790 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9322
-10:16:12.221 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@19d3f6ad
-10:16:12.221 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:12.221 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:12.221 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5843
-10:16:13.664 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@5b88af70
-10:16:13.664 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:13.664 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:13.664 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3552
-10:16:14.898 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@6f65a203
-10:16:14.898 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:14.899 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:14.899 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8245
-10:16:16.325 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@624d778e
-10:16:16.325 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:16.325 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:16.325 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3767
-10:16:17.452 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@35cbeb54
-10:16:17.452 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:17.452 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:17.452 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 6107
-10:16:18.676 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@b144175
-10:16:18.676 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:18.676 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:18.676 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8052
-10:16:19.823 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@1ba7db2a
-10:16:19.823 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:19.823 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:19.823 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5761
-10:16:20.926 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@5b895e76
-10:16:20.926 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:20.936 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:20.936 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8973
-10:16:22.295 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@5d8fd077
-10:16:22.295 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:22.295 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:22.295 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4924
-10:16:23.491 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@626df173
-10:16:23.491 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:23.491 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:23.491 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1125
-10:16:24.589 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@6b899971
-10:16:24.589 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:24.604 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:24.604 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2933
-10:16:25.638 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@254513e8
-10:16:25.638 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:25.638 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:25.638 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9745
-10:16:27.173 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@625db0e0
-10:16:27.173 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:27.173 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:27.173 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3860
-10:16:28.398 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@1cee3e05
-10:16:28.398 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:28.398 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:28.398 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4425
-10:16:29.639 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@62c47480
-10:16:29.639 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:29.639 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:29.639 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2957
-10:16:30.698 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@470f0637
-10:16:30.698 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:30.698 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:30.698 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1234
-10:16:31.756 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@538f45f1
-10:16:31.756 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:31.756 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
-10:16:31.756 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5678
-10:16:33.007 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@696105c4
-10:16:33.007 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
-10:16:34.447 [main] INFO  apiTest.DDTest - Successfully retrieved Store Details with Status_Code: 200
-10:16:34.462 [main] INFO  apiTest.DDTest - {"sold":13,"string":676,"pending":2,"available":251}
-10:16:34.462 [main] INFO  apiTest.DDTest - Flushing reports
+11:07:26.891 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@4ae2c01b
+11:07:26.898 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:26.899 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:26.899 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5761
+11:07:28.219 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@5de335cf
+11:07:28.219 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:28.219 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:28.219 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8973
+11:07:29.472 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@46fa2a7e
+11:07:29.473 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:29.474 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:29.474 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4924
+11:07:30.541 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@1c0680b0
+11:07:30.541 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:30.541 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:30.546 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1125
+11:07:31.900 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@23d060c2
+11:07:31.900 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:31.900 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:31.900 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2933
+11:07:33.039 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@e18d2a2
+11:07:33.039 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:33.039 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:33.039 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9745
+11:07:34.199 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@665ed71a
+11:07:34.199 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:34.199 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:34.199 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3860
+11:07:35.289 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@61becbcf
+11:07:35.289 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:35.289 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:35.289 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4425
+11:07:36.629 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@54970127
+11:07:36.630 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:36.630 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:36.630 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2957
+11:07:38.046 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@3a4cb483
+11:07:38.046 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:38.046 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:38.046 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1234
+11:07:39.500 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@14b9df65
+11:07:39.500 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:39.500 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:07:39.500 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5678
+11:07:40.819 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@3be50b2c
+11:07:40.819 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:07:42.140 [main] INFO  apiTest.DDTest - Successfully retrieved Store Details with Status_Code: 200
+11:07:42.155 [main] INFO  apiTest.DDTest - {"sold":9,"The Best Dog of World":1,"string":637,"pending":6,"available":235,"invalid":4}
+11:07:42.155 [main] INFO  apiTest.DDTest - Flushing reports
+11:13:49.227 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:49.235 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2861
+11:13:51.943 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@45f1413c
+11:13:51.943 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:13:51.952 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:51.952 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9981
+11:13:53.344 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@2db461b5
+11:13:53.344 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:13:53.353 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:53.353 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8028
+11:13:54.853 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@d0a2c82
+11:13:54.859 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:13:54.859 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:54.862 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1036
+11:13:56.311 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@47ffdbba
+11:13:56.318 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:13:56.319 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:56.319 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9322
+11:13:57.644 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@d6d683e
+11:13:57.644 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:13:57.644 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:57.644 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5843
+11:13:58.875 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@7eefaca0
+11:13:58.875 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:13:58.875 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:13:58.875 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3552
+11:14:00.209 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@76e9eed8
+11:14:00.209 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:00.209 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:00.209 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8245
+11:14:01.273 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@452ec287
+11:14:01.273 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:01.273 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:01.273 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3767
+11:14:02.355 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@32d1d6c5
+11:14:02.355 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:02.355 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:02.355 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 6107
+11:14:03.501 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@484b5a21
+11:14:03.501 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:03.501 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:03.501 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8052
+11:14:04.608 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@2e4b5da1
+11:14:04.608 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:04.608 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:04.608 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5761
+11:14:05.750 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@7e94de5f
+11:14:05.750 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:05.750 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:05.750 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 8973
+11:14:06.975 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@217b0952
+11:14:06.975 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:06.983 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:06.983 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4924
+11:14:08.500 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@c1f0c7b
+11:14:08.500 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:08.500 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:08.500 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1125
+11:14:09.916 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@6cb662e8
+11:14:09.916 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:09.919 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:09.919 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2933
+11:14:11.157 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@28db2afb
+11:14:11.157 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:11.166 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:11.166 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 9745
+11:14:12.301 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@554d040d
+11:14:12.301 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:12.301 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:12.301 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 3860
+11:14:13.566 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@42b500aa
+11:14:13.566 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:13.566 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:13.572 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 4425
+11:14:14.950 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@3ee68377
+11:14:14.950 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:14.950 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:14.950 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 2957
+11:14:16.350 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@146db8a6
+11:14:16.350 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:16.350 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:16.350 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 1234
+11:14:17.716 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@186d6033
+11:14:17.716 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:17.716 [main] INFO  apiTest.DDTest - *********************************************************************************************************************************************************
+11:14:17.716 [main] INFO  apiTest.DDTest - Posting Order Details to the Store with Pet ID: 5678
+11:14:19.259 [main] INFO  apiTest.DDTest - Response captured is: io.restassured.internal.RestAssuredResponseImpl@54f9326c
+11:14:19.259 [main] INFO  apiTest.DDTest - Successfully posted order details to the pet store with response Status_Code: 200
+11:14:20.681 [main] INFO  apiTest.DDTest - Successfully retrieved Store Details with Status_Code: 200
+11:14:20.704 [main] INFO  apiTest.DDTest - {"sold":9,"The Best Dog of World":1,"string":642,"pending":5,"available":235,"invalid":4}
+11:14:20.706 [main] INFO  apiTest.DDTest - Flushing reports
